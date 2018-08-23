@@ -4,12 +4,12 @@ export class Post {
     loveIts: number;
     created_at: Date;
 
-    constructor(public title: string,
-                public content: string)
+    constructor(public titre: string,
+                public contenu: string)
     {
-        this.title = title;
+        this.title = titre;
 
-        this.content = content;
+        this.content = contenu;
 
         this.loveIts = 0;
 

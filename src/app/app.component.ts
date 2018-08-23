@@ -18,13 +18,13 @@ export class AppComponent {
             "            'inceptos himenaeos. Nulla vestibulum diam in dui commodo, quis mollis sapien commodo.");
         this.posts.push(newPost);
 
-        let newPost = new Post("Mon premier post", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum euismod aliquam. ' +\n" +
+        newPost = new Post("Mon premier post", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum euismod aliquam. ' +\n" +
             "            'Pellentesque ultrices tellus ut tempus ultricies. Donec consectetur enim vel ante vulputate, ut ' +\n" +
             "            'sagittis lectus ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per' +\n" +
             "            'inceptos himenaeos. Nulla vestibulum diam in dui commodo, quis mollis sapien commodo.");
         this.posts.push(newPost);
 
-        let newPost = new Post("Encore un post", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum euismod aliquam. ' +\n" +
+        newPost = new Post("Encore un post", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum euismod aliquam. ' +\n" +
             "            'Pellentesque ultrices tellus ut tempus ultricies. Donec consectetur enim vel ante vulputate, ut ' +\n" +
             "            'sagittis lectus ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per' +\n" +
             "            'inceptos himenaeos. Nulla vestibulum diam in dui commodo, quis mollis sapien commodo.");
