@@ -1,0 +1,9 @@
+<p style="position: relative; float: right; ">{{ post.created_at | date: 'M/d/yyyy, h:mm a' }}</p>
+<h3>{{ post.title }}</h3>
+<p>{{ post.content }}</p>
+<div class="btn-toolbar">
+    <button type="button" class="btn btn-success" (click)="updateLoveIts(1)">Love it!</button>
+    <button type="button" class="btn btn-danger" (click)="updateLoveIts(-1)">Don't love it!</button>
+    <span class="badge" style="margin-left: 5px;"> {{ post.loveIts }}</span>
+</div>
+
